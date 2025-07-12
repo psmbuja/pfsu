@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENDO & FAMILLE SURL - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Nos produits</a></li>
+                <li><a href="services.html">Nos services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contactez-nous</h1>
+
+        <section>
+            <h2>Informations de contact</h2>
+            <p>Téléphone : +257 79 08 40 08</p>
+            <p>Email : <a href="mailto:mudherwmb@gmail.com">mudherwmb@gmail.com</a></p>
+            <p>Adresse : 6ème Avenue, Quartier Carama, Zone Kinama, Commune Ntahangwa, Bujumbura, Burundi.</p>
+        </section>
+
+        <section>
+            <h2>Carte interactive</h2>
+            <div id="map">
+                <!-- Intégration de la carte Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13369.45197192868!2d29.350968774161502!3d-3.38280527642983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c1810a6e7a2d8f%3A0x9c6b685c46de1531!2sCarama%2C%20Bujumbura!5e0!3m2!1sfr!2sbi!4v1692038491010!5m2!1sfr!2sbi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formulaire de contact</h2>
+            <form action="mailto:mudherwmb@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PENDO & FAMILLE SURL. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

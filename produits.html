@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENDO & FAMILLE SURL - Nos produits</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styles de base pour le menu */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Styles pour le sous-menu déroulant */
+        nav ul li ul {
+            display: none; /* Cache le sous-menu par défaut */
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid #ccc;
+            z-index: 1000;
+        }
+
+        /* Affiche le sous-menu lorsque l'on survole l'élément parent */
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li {
+            width: 200px; /* Ajustez la largeur selon vos besoins */
+        }
+        nav ul li ul li a {
+            padding: 10px;
+            color: #000;
+        }
+        nav ul li ul li a:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li>
+                    <a href="produits.html">Nos produits</a>
+                    <ul>
+                        <li><a href="huiles.html">Huiles végétales vierges</a></li>
+                        <li><a href="materiaux.html">Matériaux de construction innovants</a></li>
+                        <li><a href="briquettes.html">Briquettes écologiques</a></li>
+                        <li><a href="equipements.html">Équipements d’énergies alternatives</a></li>
+                    </ul>
+                </li>
+                <li><a href="services.html">Nos services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nos produits</h1>
+        <p>Découvrez nos différentes gammes de produits écologiques et innovants.</p>
+
+        <section>
+            <h2><a href="huiles.html">Huiles végétales vierges</a></h2>
+            <p>Nos huiles de sésame, arachide, moringa, coco et ricin sont extraites avec soin pour conserver toutes leurs propriétés naturelles.</p>
+        </section>
+
+        <section>
+            <h2><a href="materiaux.html">Matériaux de construction innovants</a></h2>
+            <p>Contribuez à la construction écologique avec nos briques de Typha, panneaux isolants en Typha, béton de Typha, composites en Typha, et plâtre à base de Typha.</p>
+        </section>
+
+        <section>
+            <h2><a href="briquettes.html">Briquettes écologiques</a></h2>
+            <p>Optez pour des alternatives durables avec nos briquettes biocombustibles et nos briquettes de charbon recyclé, idéales pour un chauffage propre et efficace.</p>
+        </section>
+
+        <section>
+            <h2><a href="equipements.html">Équipements d’énergies alternatives et de construction écologique</a></h2>
+            <p>Transformez votre vision de la construction avec des solutions écologiques ! Explorez notre gamme d’équipements incluant des presses à briquettes, presses à briques de Typha, séchoirs solaires et bien plus encore.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PENDO & FAMILLE SURL. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
